@@ -1,0 +1,17 @@
+// vercel.json
+
+{
+    &quot;version&quot;:2,
+    &quot;builds&quot;:[
+        {
+            &quot;src&quot;:&quot;*.js&quot;,
+            &quot;use&quot;:&quot;@vercel/node&quot;
+        }
+    ],
+    &quot;routes&quot;:[
+        {
+            &quot;src&quot;:&quot;/(.*)&quot;,
+            &quot;dest&quot;:&quot;/&quot;
+        }
+    ]
+}
